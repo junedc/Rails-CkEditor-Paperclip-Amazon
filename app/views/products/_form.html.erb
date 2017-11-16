@@ -18,6 +18,13 @@
   <p>
     <%= f.file_field :image %>
   </p>
+  
+
+
+  <div class="field">
+    <%= f.label :content %>
+    <%= f.cktext_area :content %>
+  </div>
 
   <div class="actions">
     <%= f.submit %>

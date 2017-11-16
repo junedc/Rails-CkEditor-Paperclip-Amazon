@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 <td><%= @product.name %></td>
-<td><%=  image_tag @product.image.url %></td>
+
+<td><%= @product.content.html_safe %></td>
+
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>

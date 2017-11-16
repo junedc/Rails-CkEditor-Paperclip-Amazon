@@ -26,3 +26,24 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+
+https://blog.emmanuelcorrales.com/posts/upload-images-to-amazon-s3-with-paperclip-on-rails
+
+
+https://stackoverflow.com/questions/10840185/ckeditor-gem-with-paperclip-and-amazon-s3
+
+http://chriswoodford.posthaven.com/uploading-files-to-amazon-s3-with-rails-and-paperclip
+
+https://www.benlcollins.com/rails/building-a-rails-app-for-images-using-amazon-s3-and-paperclip/
+
+http://www.rubydoc.info/gems/paperclip/Paperclip/Storage/S3
+
+https://sparksolutions.co/2016/01/configuring-heroku-aws-s3-and-paperclip-to-work-with-a-bucket-outside-of-the-usa/
+
+
+
+how to add a column
+
+rails generate migration addContentToProduct content:string
+rake db:migrate
